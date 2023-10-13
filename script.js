@@ -6,6 +6,8 @@ titulo.id = "titulo"
 let bodyTitulo = document.querySelector("body")
 bodyTitulo.appendChild(titulo);
 
+//criação do subtítulo
+
 let subtitulo = document.createElement("h2");
 subtitulo.innerText = "Dispenso curiosos."
 subtitulo.id = "subtitulo"
@@ -31,6 +33,8 @@ consoleAtari.innerHTML =
 `
 const console = document.querySelector("body");
 console.appendChild(consoleAtari);
+
+//criação de tabela com preço e especificações técnicas
 
 const especificoesTecnicas = document.createElement("div");
 
